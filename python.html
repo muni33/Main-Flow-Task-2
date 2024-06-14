@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Course Enrollment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <label class="Metaverse">Metaverse</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+                <a href="#">Courses</a>
+                <ul class="dropdown">
+                    <li><a href="python.html">Python</a></li>
+                    <li><a href="java.html">Java</a></li>
+                    <li><a href="DBMS.html">DBMS</a></li>
+                    <li><a href="Datascience.html">Data Science</a></li>
+                    <li><a href="web.html">Web Development</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <h1>Enroll in Our Python Course</h1>
+        <img src="python course.png" alt="Python Course" class="course-image">
+        <b><p>Join our comprehensive Python course and become a proficient programmer. This course covers everything from basics to advanced concepts, ensuring you become an expert in Python.</b></p>
+        
+        <form class="enrollment-form">
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone"><b>Phone:</b></label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="experience"><b>Experience Level:</b></label>
+            <select id="experience" name="experience" required>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            
+            <button type="submit"><b>Enroll Now</b></button>
+        </form>
+    </div>
+</body>
+</html>
